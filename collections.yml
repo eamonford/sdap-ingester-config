@@ -1,9 +1,10 @@
-# collection id with only letter and -
+# dataset_id with only letter and -
 # path: regular expression matching the netcdf files which compose the collection
 # variable: netcdf variable to be ingested (only one per dataset)
 # priority: order in which collections will be processed, the smaller numbers first.
-avhrr-oi-analysed-sst:
-  path: resources/test/data/avhrr_oi/*.nc
+avhrr-oi-analysed-sst-forward-processing:
+  dataset_id: avhrr-oi-analysed-sst
+  path: podaac-devtest:/dev_data/dev/jeff/gig/gibs_png_output/MUR25-JPL-L4-GLOB-v04.2/*.nc
+  from: 2020-01-01T00:00:00Z
   variable: analysed_sst
-  priority: 2
-
+  priority: 1
