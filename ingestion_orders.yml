@@ -5,6 +5,12 @@
 avhrr-oi-analysed-sst-forward-processing:
   dataset_id: avhrr-oi-analysed-sst
   path: podaac-devtest:/dev_data/dev/jeff/gig/gibs_png_output/MUR25-JPL-L4-GLOB-v04.2/*.nc
-  from: 2020-01-01T00:00:00Z
   variable: analysed_sst
+  update_time:
+    from: 2020-05-12T00:00:00Z
+  on:
+    schedule: 0 0 * * * 
   priority: 1
+  active: true
+
+
