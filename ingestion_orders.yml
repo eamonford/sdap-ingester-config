@@ -9,7 +9,7 @@ avhrr-oi-analysed-sst-forward-processing:
   update_time:
     from: 2020-05-12T00:00:00Z
   on:
-    schedule: 0 0 * * * 
+    schedule: 1 0 * * * 
   priority: 1
   active: true
 
