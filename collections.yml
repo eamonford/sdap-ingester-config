@@ -52,3 +52,4 @@ collections:
     variable: ascata_l2_coastal___wind_speed___2880_x_1440___night
     priority: 1
     forward-processing-priority: 5
+
