@@ -23,7 +23,7 @@ collections:
     priority: 1
     forward-processing-priority: 5
 
-  - id:	smap-rss-l3-sss-smi-8day-runningmean-v4-sss-smap
+  - id: smap-rss-l3-sss-smi-8day-runningmean-v4-sss-smap
     path: /data/scratch/jrhall/gig/gibs_png_output/SMAP_RSS_L3_SSS_SMI_8DAY-RUNNINGMEAN_V4/*.nc
     variable: sss_smap
     priority: 1
@@ -52,3 +52,4 @@ collections:
     variable: ascata_l2_coastal___wind_speed___2880_x_1440___night
     priority: 1
     forward-processing-priority: 5
+
