@@ -1,55 +1,8 @@
 collections:
-  - id: aquarius-l3-sss-smi-7days-runningmean-v5
-    path: /data/scratch/jrhall/gig/gibs_png_output/AQUARIUS_L3_SSS_SMI_7DAY-RUNNINGMEAN_V5/*.nc
-    variable: l3m_data
-    priority: 1
-    forward-processing-priority: 5
 
-  - id: mur25-jpl-l4-glob-v42-analysed-sst
-    path: /data/scratch/jrhall/gig/gibs_png_output/MUR25-JPL-L4-GLOB-v04.2/*.nc
+  - id: mur25-jpl-l4-glob-v41-analysed-sst
+    path: /data//share/datasets/MUR25_L4_GLOB_V4.1/daily_data/*.nc
     variable: analysed_sst
-    priority: 1
-    forward-processing-priority: 5
-
-  - id: sea-surface-height-alt-grids-l4-2sats-5day-6thdeg-v-jpl1812-sla
-    path: /data/scratch/jrhall/gig/gibs_png_output/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL1812/*.nc
-    variable: sla
-    priority: 1
-    forward-processing-priority: 5
-
-  - id: smap-jpl-l3-sss-cap-8day-runningmean-v43-sss-smap
-    path: /data/scratch/jrhall/gig/gibs_png_output/SMAP_JPL_L3_SSS_CAP_8DAY-RUNNINGMEAN_V43/*.nc
-    variable: sss_smap
-    priority: 1
-    forward-processing-priority: 5
-
-  - id: smap-rss-l3-sss-smi-8day-runningmean-v4-sss-smap
-    path: /data/scratch/jrhall/gig/gibs_png_output/SMAP_RSS_L3_SSS_SMI_8DAY-RUNNINGMEAN_V4/*.nc
-    variable: sss_smap
-    priority: 1
-    forward-processing-priority: 5
-
-  - id: tellus-grac-grfo-mascon-cri-grid-rl06-v2-lwe-thickness
-    path: /data/scratch/jrhall/gig/gibs_png_output/TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06_V2/*.nc
-    variable: lwe_thickness
-    priority: 1
-    forward-processing-priority: 5
-
-  - id: oscar-l4-oc-third-deg-oceancurrent-speed-1088-x-544-daynight
-    path: /data/scratch/jrhall/giri/images/oceancurrent_speed/oscar_l4_oc_third_deg/netcdf/*.nc
-    variable: oscar_l4_oc_third_deg___oceancurrent_speed___1088_x_544___daynight
-    priority: 1
-    forward-processing-priority: 5
-
-  - id: ascata-l2-coastal-wind-speed-2880-x-1440-day
-    path: /data/scratch/jrhall/giri/images/wind_speed/ascata_l2_coastal/netcdf/*_day_*.nc
-    variable: ascata_l2_coastal___wind_speed___2880_x_1440___day
-    priority: 1
-    forward-processing-priority: 5
-
-  - id: ascata-l2-coastal-wind-speed-2880-x-1440-night
-    path: /data/scratch/jrhall/giri/images/wind_speed/ascata_l2_coastal/netcdf/*_night_*.nc
-    variable: ascata_l2_coastal___wind_speed___2880_x_1440___night
     priority: 1
     forward-processing-priority: 5
 
