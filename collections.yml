@@ -1,0 +1,6 @@
+collections:
+
+  - id: AVHRR_OI-NCEI-L4-GLOB-v2.0
+    path: /data/avhrr_oi/*.nc
+    variable: analysed_sst
+    priority: 1
