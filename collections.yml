@@ -3,6 +3,35 @@ collections:
   - id: mur25-jpl-l4-glob-v41-analysed-sst
     path: /data/datasets/MUR25_L4_GLOB_V4.1/daily_data/*.nc
     variable: analysed_sst
+    priority: 2
+    forward-processing-priority: 5
+
+  - id: measures-sla-jpl-1603-regrid1x1-ssh
+    path: /data/datasets/MEASURES_SLA_JPL_1603/regrid1x1-ssh_grids_v1609_*.nc
+    variable: SLA
     priority: 1
     forward-processing-priority: 5
 
+  - id: smap-l2b-sss-daily-smap-sss
+    path: /data/datasets/SMAP_L2B_SSS/daily_data/SMAP_L2B_SSS_*.h5
+    variable: smap_sss
+    priority: 4
+    forward-processing-priority: 5
+
+  - id: modis-l3-aqua-11um-v2014-0-4km-daily-sst
+    path: /data/datasets/MODIS_L3_AQUA_11UM_V2014.0_4KM_DAILY/daily_data/A*.L3m_DAY_SST_sst_4km.nc
+    variable: sst
+    priority: 3
+    forward-processing-priority: 5
+
+  - id: avhrr-l4-glob-v2-daily-ncei-ghrsst-sstblend-avhrr-oi-glob-v020-fv020
+    path: /data/datasets/AVHRR_L4_GLOB_V2/daily_data/*-NCEI-L4_GHRSST-SSTblend-AVHRR_OI-GLOB-v02.0-fv02.0.nc
+    variable: analysed_sst
+    priority: 3
+    forward-processing-priority: 5
+
+  - id: avhrr-l4-glob-v2-clim-seasonal-ncei-ghrsst-sstblend-avhrr-oi-glob-v020-fv020
+    path: /data/datasets/AVHRR_L4_GLOB_V2/climatology_seasonal/ncei_*.nc
+    variable: mean_sst
+    priority: 1
+    forward-processing-priority: 5
